@@ -5,3 +5,37 @@
 方法2：真人人格的“数字化”，然后通过可量化的、数学的方法去研究人类心理学。具体做法是，让不同的人对同一组输入进行描述，比如同一组图片，复述同一篇文章，同一组视频，同样的体验（比如说触觉、嗅觉之类），他们的不同描述记录下来，这就是对应的这个人的人格的“采样数据”，制作另一组中立的数据与之相匹配，然后用常规的方法进行人格向量提取，提取到的就是这个真人在这个特定的大模型上对应的人格向量（persona vector），意义有两点，一个是真人人格的数字化，一个是通过不同真人的人格向量组之间的“夹角”分析他们“灵魂契合”的程度，或者说沟通时“鸡同鸭讲”的程度。
 
 这两个技术的底层原理是一个假设：人类的人格对应的就是信息进入大脑后在神经网络里被选择性地处理的过程，不同的人“偏爱”不同的信息模式，这就是所谓人格的本质，完美契合anthropic用在大模型上的这个技术，所以有了AI-真人相互之间人格模拟和交叉研究的可能。我个人评估，这两个技术已经具备了落地的现实条件，是马上可以拿去做的东西。但是我对验证成功的信心是很足的。 
+
+I've identified two immediately actionable methods that apply Anthropic's feature steering and persona vector extraction techniques to AI-human psychology research. Both can be implemented right now.
+
+Method 1: Orthogonal Persona Research in AI
+
+Extract a set of feature vectors representing a model's persona, then compute their orthogonal vectors. This yields an "orthogonal persona" vector set for the same LLM. You can then:
+
+    Compare outputs from these two orthogonal personas on identical inputs
+
+    Design experiments where the two personas "converse" with each other and observe the dynamics
+
+Method 2: Digitizing Real Human Personalities
+
+This enables quantifiable, mathematical approaches to studying human psychology. The process:
+
+    Have different individuals describe the same set of inputs—images, text passages, videos, or even sensory experiences (touch, smell, etc.)
+
+    Record their varied descriptions as "sampling data" for each person's personality
+
+    Create a neutral/control dataset to pair with these samples
+
+    Apply standard persona vector extraction techniques to derive each individual's persona vector within the model's representation space
+
+This has two major implications:
+
+    Digital archiving of real human personalities
+
+    Quantifying "soulmate" compatibility or communication alignment by measuring the angular distance between different individuals' persona vectors—essentially measuring how much they "talk past each other"
+
+The underlying hypothesis:
+
+Human personality fundamentally corresponds to how information is selectively processed as it passes through neural networks. Different individuals "prefer" different informational patterns—that's the essence of personality. This aligns perfectly with Anthropic's techniques for LLMs, opening up new possibilities for simulating and cross-studying AI and human personalities.
+
+I believe both approaches are practically feasible today. Personally, I'm highly confident they can be successfully validated.
